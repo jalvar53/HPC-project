@@ -1,0 +1,10 @@
+#ifndef HPC_PROJECT_EUCLIDEANDISTANCE_H
+#define HPC_PROJECT_EUCLIDEANDISTANCE_H
+
+
+class EuclideanDistance {
+
+};
+
+
+#endif //HPC_PROJECT_EUCLIDEANDISTANCE_H

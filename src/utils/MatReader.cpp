@@ -33,7 +33,6 @@ vector<int> getDocument(int x) {
         int i = 0;
         while (getline(dataset, line)) {
             if(i == x){
-                cout << "la linea es:" << line << endl;
                 vector<string> data = split(line,' ');
                 for(int i=1; i<data.size(); i++){
                     int index = stoi(data[i]);
@@ -53,5 +52,8 @@ vector<int> getDocument(int x) {
 }
 
 int main (){
-    vector<int> out = getDocument(6);
+    // lee el documento numero 'X' en "../assets/re0.mat"
+    int x = 6;
+    // convierte el documento en un vector de tipo <# termino, frecuencia, #termino2, frecuencia ... >
+    vector<int> out = getDocument(x);
 }

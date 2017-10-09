@@ -50,10 +50,3 @@ vector<int> getDocument(int x) {
     dataset.close();
     return document;
 }
-
-int main (){
-    // lee el documento numero 'X' en "../assets/re0.mat"
-    int x = 6;
-    // convierte el documento en un vector de tipo <# termino, frecuencia, #termino2, frecuencia ... >
-    vector<int> out = getDocument(x);
-}
